@@ -1,0 +1,72 @@
+@font-face {
+  font-family: SocialIco;
+  src: url("../fonts/Socialico.ttf");
+}
+
+.site {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+}
+
+.header {
+  background-color: #fff;
+  border-top: #81b300 solid 4px;
+  position: relative;
+}
+
+.header__wrap_center {
+  margin: 0 50px;
+}
+
+.header__title {
+  font-size: 46px;
+  font-variant: small-caps;
+  margin: 0;
+}
+
+.header__title_left {
+  padding-top: 20px;
+}
+
+.header__socialIcon {
+  text-align: center;
+  background: #81b300;
+  font-family: SocialIco, sans-serif;
+  font-size: 48px;
+}
+
+.header__socialIcon_absolute {
+  position: absolute;
+  right: 50px;
+  top: 0;
+  display: block;
+  width: 200px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.header__socialItem {
+  text-decoration: none;
+  color: #000;
+}
+
+.header__menuSmall {
+  color: #81b300;
+}
+
+.header__menuSmall_right {
+  text-align: right;
+}
+
+.header__menuSmallItem {
+  color: #81b300;
+  text-decoration: none;
+}
+
+.navigation {
+  background: #81b300;
+}
+
+.navigation__wrap_center {
+  margin: 0 50px;
+}

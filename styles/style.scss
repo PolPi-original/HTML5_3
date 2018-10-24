@@ -1,0 +1,78 @@
+@import "_variables.scss";
+
+@font-face {
+    font-family: SocialIco;
+    src: url("../fonts/Socialico.ttf");
+}
+
+.site {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #fff;
+    border-top: $colorHeaderBackground solid 4px;
+    position: relative;
+
+    &__wrap{
+        &_center {
+            margin: 0 $marginLeftRight;
+        }
+    }
+
+    &__title{
+        font-size: 46px;
+        font-variant: small-caps;
+        margin: 0;
+
+        &_left {
+            padding-top: 20px;
+        }
+    }
+
+    &__socialIcon {
+        text-align: center;
+        background: $colorHeaderBackground;
+        font-family: SocialIco, sans-serif;
+        font-size: 48px;
+
+        &_absolute {
+            position: absolute;
+            right: $marginLeftRight;
+            top: 0;
+            display: block;
+            width: 200px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+    }
+
+    &__socialItem {
+        text-decoration: none;
+        color: #000;
+    }
+
+    &__menuSmall {
+        color: $colorHyperlink;
+
+        &_right {
+            text-align: right;
+        }
+    }
+
+    &__menuSmallItem {
+        color: $colorHyperlink;
+        text-decoration: none;
+    }
+}
+
+.navigation {
+    background: $colorHeaderBackground;
+
+    &__wrap{
+        &_center {
+            margin: 0 $marginLeftRight;
+        }
+    }
+}
